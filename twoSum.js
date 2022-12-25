@@ -13,12 +13,13 @@
 // My Solution :
 
 var twoSum = function (nums, target) {
-  for (let i = 0; i < nums.length; i++) {
-    let num = target - nums[i];
-    for (let j = i + 1; j < nums.length; j++) {
-      if (num == nums[j]) {
-        return [i, j];
-      }
+  let map = new Map()
+  for(let i=0;i<nums.length;i++){
+    let  complement= target- nums[i]
+    if(map.has(nums[i])){
+        return [map.get(nums[i]),i]
+    }else{
+        map.set(complement,i)
     }
   }
 };
