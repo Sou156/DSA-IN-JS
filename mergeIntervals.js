@@ -25,4 +25,4 @@ if(intervals[i][0]<=output[output.length-1][1]){
   return output
 };
 
-console.log(merge([[1,9],[4,5]]));
+console.log(merge([[1,6],[4,5]]));
