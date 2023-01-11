@@ -45,4 +45,4 @@ return bfs()
 
 };
 
-console.log(isSameTree([1,2,3], [1,2,3]));
+console.log(isSameTree([1,7,3], [1,2,3]));
