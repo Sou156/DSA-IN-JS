@@ -17,7 +17,7 @@ var minTime = function(n, edges, hasApple) {
   const graph = {}
  for(let i=0;i<edges.length;i++){
      if(!graph[edges[i][0]]){
-         graph[edges[i][0]]= [edges[i][1]]
+         graph[edges[i][0]]= [edges[i][8]]
      }else graph[edges[i][0]].push(edges[i][1])
 
              if(!graph[edges[i][1]]){
