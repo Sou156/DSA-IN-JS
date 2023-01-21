@@ -28,4 +28,4 @@ if(node.left) dfs(node.left)
   return root
 };
 
-console.log(bstToGst([0,null,1]));
+console.log(bstToGst([3,null,1]));
