@@ -23,5 +23,5 @@ var sortTheStudents = function(score, k) {
   return score.sort((a, b) => b[k] - a[k]);
 };
 
-console.log(sortTheStudents([[11,6,9,1],[7,5,71,2],[4,8,3,15]],2));
+console.log(sortTheStudents([[11,6,9,1],[8,5,71,2],[4,8,3,15]],2));
 
