@@ -33,4 +33,4 @@ while(i<nums.length){
   return arr
 };
 
-console.log(decompressRLElist([1,2,3,4]))
+console.log(decompressRLElist([1,2,3,8]))
