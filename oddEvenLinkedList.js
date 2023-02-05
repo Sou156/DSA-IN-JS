@@ -16,7 +16,7 @@
 
 // Solution
 
-var oddEvenList = function(head) {
+let oddEvenList = function(head) {
   let evenList = [], oddList = [], odd=true
   let currNode = head 
   while(currNode){
