@@ -9,7 +9,7 @@
 // Output: 1
 
 
-let minDiffInBST = function(root) {
+var minDiffInBST = function(root) {
   let minimum = Infinity
 let stack = [root], arr = []
 
