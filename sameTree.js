@@ -13,7 +13,7 @@
 // Output: true
 
 
-var isSameTree = function(p, q) {
+let isSameTree = function(p, q) {
 
   function bfs(){
       if(!p && !q) return true
