@@ -11,7 +11,7 @@
 
 // Input: p = [1,2,3], q = [1,2,3]
 // Output: true
-let isSameTree = function(p, q) {
+const isSameTree = function(p, q) {
 
   function bfs(){
       if(!p && !q) return true
