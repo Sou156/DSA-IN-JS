@@ -11,7 +11,7 @@
 
 // Solution 
 
-var flatten = function(root) {
+let flatten = function(root) {
   let arr = []
 
 if (!root) return
