@@ -10,7 +10,7 @@
 // Explanation: The missing positive integers are [1,5,6,8,9,10,12,13,...]. The 5th missing positive integer is 9.
 
 
-var findKthPositive = function(arr, k) {
+let findKthPositive = function(arr, k) {
   let missingNums = []
   let j = 1, i = 0
 
