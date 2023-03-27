@@ -11,7 +11,7 @@
 // Explanation: We remove the nodes 3 and 4 and put the entire list2 in their place. The blue edges and nodes in the above figure indicate the result.
 
 
-var mergeInBetween = function(list1, a, b, list2) {
+let mergeInBetween = function(list1, a, b, list2) {
   let secondHalf = list1, i=0
 
 while (secondHalf) {
