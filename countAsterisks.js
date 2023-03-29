@@ -15,7 +15,7 @@
 // There are 2 asterisks considered. Therefore, we return 2.
 
 
-var countAsterisks = function(s) {
+let countAsterisks = function(s) {
   let count = 0 
   let firstEn= false
   for(let i=0;i<s.length;i++){
