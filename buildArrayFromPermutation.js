@@ -14,7 +14,7 @@
 //     = [nums[0], nums[2], nums[1], nums[5], nums[3], nums[4]]
 //     = [0,1,2,4,5,3]
 
-let buildArray = function(nums) {
+var buildArray = function(nums) {
   let ans = []
 
   for(let i=0;i<nums.length;i++){
