@@ -17,7 +17,7 @@
 
 // Solution 
 
-var mergeAlternately = function(word1, word2) {
+let mergeAlternately = function(word1, word2) {
   let newWord = ""
 let len = word1.length >= word2.length ? word1.length : word2.length
 
